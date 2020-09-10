@@ -1,0 +1,36 @@
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.square:hover {
+    cursor: pointer;
+}
+
+.circle {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;    
+}
+
+.last {
+    background-color: red;
+    opacity: 35%;
+}
+
+.selected {
+    background-color: red;
+    opacity: 100%;
+}

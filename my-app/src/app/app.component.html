@@ -1,0 +1,7 @@
+<div class="main-container">
+  <div class="row">
+    <div class="square" *ngFor="let square of squares; let idx = index" (click)="selectSquare(idx);">
+      <span class="circle" [ngClass]="{'selected': square.selected, 'last': idx === lastSelected}"></span>
+    </div>
+  </div>
+</div>
